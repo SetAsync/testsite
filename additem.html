@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Item</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+    }
+
+    .item-details {
+      margin-bottom: 20px;
+    }
+
+    .create-buttons {
+      margin-bottom: 20px;
+    }
+
+    .create-button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+
+    .create-button:hover {
+      background-color: #45a049;
+    }
+
+    .editable-input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item-details">
+      <h2>Add Item</h2>
+      <table>
+        <tr>
+          <td>Ref Number:</td>
+          <td><input type="text" class="editable-input" placeholder="Enter ref number"></td>
+        </tr>
+        <tr>
+          <td>Product Name:</td>
+          <td><input type="text" class="editable-input" placeholder="Enter product name"></td>
+        </tr>
+        <tr>
+          <td>Internal Value:</td>
+          <td><input type="text" class="editable-input" placeholder="Enter internal value"></td>
+        </tr>
+        <tr>
+          <td>Build Date:</td>
+          <td><input type="date" class="editable-input"></td>
+        </tr>
+        <tr>
+          <td>Previous Site:</td>
+          <td><input type="text" class="editable-input" placeholder="Enter previous site"></td>
+        </tr>
+        <tr>
+          <td>Current Site:</td>
+          <td><input type="text" class="editable-input" placeholder="Enter current site"></td>
+        </tr>
+        <tr>
+          <td>Delivery Date:</td>
+          <td><input type="date" class="editable-input"></td>
+        </tr>
+        <tr>
+          <td>ETA for Return:</td>
+          <td><input type="date" class="editable-input"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="create-buttons">
+      <button class="create-button">Create in Site 1</button>
+      <button class="create-button">Create in Site 2</button>
+      <button class="create-button">Create in Site 3</button>
+    </div>
+  </div>
+</body>
+</html>
